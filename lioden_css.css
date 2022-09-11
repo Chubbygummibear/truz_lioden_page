@@ -13,7 +13,7 @@
 /* BACKGROUND */
 
 body {
-	background: url(https://cdn.discordapp.com/attachments/942634129328070676/1018570910325805188/backgroundoption1.jpg) center center fixed;
+	background: url(https://chubbygummibear.github.io/truz_lioden_page/assets/backgroundoption1.jpg) center center fixed;
 	background-size: 100%;
 	font-family: FONT CSS HERE;
 	color: #ffffff;
@@ -412,7 +412,7 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('IMAGE URL HERE');
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/sheep_eating.gif);
 }
 
 

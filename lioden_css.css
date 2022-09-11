@@ -18,6 +18,8 @@ body {
 	font-family: FONT CSS HERE;
 	color: #ffffff;
 }
+body, 
+a:hover {cursor: url(http://cur.cursors-4u.net/symbols/sym-6/sym600.cur), progress !important;}
 
 
 /* FEED ALL, PLAY ALL */

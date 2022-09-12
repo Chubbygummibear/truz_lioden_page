@@ -19,7 +19,9 @@ body {
 	color: #ffffff;
 }
 body, 
-a:hover {cursor: url(https://www.cursors-4u.com/cursor/2006/05/01/nat260.html), progress !important;}
+a:hover {
+	cursor: url(https://cur.cursors-4u.net/nature/nat-3/nat260.cur), default !important;
+}
 
 
 
@@ -414,8 +416,8 @@ table#player img {
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/sheep_eating.gif);
-	height: 75%;
-	width: 75%;
+	height: 100%;
+	width: 100%;
 }
 
 

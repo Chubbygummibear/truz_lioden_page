@@ -352,8 +352,8 @@ textarea {
 
 .cave-grid,
 .mound-grid {
-	background: pink;
-	border: none !important;
+	background: var(--box-background);
+	border: var(--pink-border);
 }
 
 
@@ -523,7 +523,8 @@ a[href$="lionoverview.php?id=USERID"]>div.cave-grid>img {
 /* MOUNDS */
 
 .mound-grid img {
-	background: url('/assets/strawberries.png');
+	background: url(https://chubbygummibear.github.io/truz_lioden_page/assets/strawberries.png);
+	background-size: contain;
 	width: 0;
 	height: 0;
 	padding-top: 80px;

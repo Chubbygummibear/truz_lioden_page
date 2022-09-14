@@ -203,7 +203,7 @@ div.left {
 
 /* PINNED MESSAGE */
 .s-chat-message__pinned {
-	background: var(--box-background) !important;
+	background: pink !important;
 	color: var(--text-color-white) !important;
 	border: none !important;
 }
@@ -213,7 +213,7 @@ div.left {
 }
 
 div#chatMessageContainer {
-	border: none !important;
+	border: var(--pink-border);
 }
 
 /* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */

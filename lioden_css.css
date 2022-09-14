@@ -170,8 +170,8 @@ div.left {
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: var(--box-background);
 	color: var(--text-color-white);
+	background: #5d1b24;
 	/* background-image: linear-gradient(to right, darkgreen, red); */
 }
 
@@ -181,24 +181,11 @@ div.left {
 		
 }
 
-ENERGY BAR COLOR */
+/* ENERGY BAR COLOR */
  
 .progress-bar {
-	/* background: var(--box-background); */
+	background: #485f33;
 	color: var(--text-color-white);
-	
-	border-radius: 25px;
-
-	
-}
-.progress-bar::before {
-	content:"";
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	background-image: linear-gradient(to right, darkgreen, red);
 	
 }
 
@@ -206,7 +193,7 @@ ENERGY BAR COLOR */
 
 .s-chat-message:nth-child(even) {
 	background: var(--box-background) !important;
-	border: none !important;
+	border: var(--pink-border);
 }
 
 .s-chat-message:nth-child(odd) {
@@ -308,7 +295,7 @@ textarea {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: var(--box-background) !important;
+	background: pink;
 }
 
 

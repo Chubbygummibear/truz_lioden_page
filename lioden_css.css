@@ -12,7 +12,7 @@
 
 /* BACKGROUND */
 :root{
-	--box-background: rgb(255, 192, 203, .25);
+	--box-background: rgb(255, 192, 203, .40);
 	--box-outline: rgb(147, 145, 25);
 	--text-color-white: white;
 	--pink-border: 2px solid pink;
@@ -476,7 +476,7 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url(assets/flowers_logo.gif);
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/flowers_logo.gif);
 	margin-top: 12.5px;
 	margin-left: 25px;
 	max-height: 75px;
@@ -492,9 +492,12 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 div.cave-grid>img {
 	height: max-content;
-	content: url('/assets/cherry_blossums.gif') !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/cherry_blossums.gif) !important;
 }
 
+div.center.auto>img{
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/flower.gif) !important;
+}
 
 /* CAVES (Copy paste to add more) */
 

@@ -352,7 +352,7 @@ textarea {
 
 .cave-grid,
 .mound-grid {
-	background: var(--box-background);
+	background: pink;
 	border: none !important;
 }
 
@@ -492,7 +492,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 div.cave-grid>img {
 	height: max-content;
-	content: url('/assets/strawberries.png') !important;
+	content: url('/assets/cherry_blossums.gif') !important;
 }
 
 

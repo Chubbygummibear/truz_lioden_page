@@ -10,30 +10,66 @@
 
 @import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door');
 
-/* BACKGROUND */
+/* CONTROL VARIABLES */
 :root{
+	--main-container-background-color:rgba(255, 132, 153, 0.4);
+	--main-background-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/backgroundoption1.jpg) center center fixed;
 	--box-background: rgb(255, 192, 203, .40);
-	--box-outline: rgb(147, 145, 25);
-	--text-color-white: white;
-	--pink-border: 2px solid pink;
-	--player-id-Truz: 59701;
-	--player-id-me: 349949;
+	--solid-background-color: pink;
+	--text-color: white;
+	--box-border: 2px solid pink;
+	
+	--custom-cursor:url(https://cur.cursors-4u.net/nature/nat-3/nat260.cur);
+	
+	--navbar-color:rgba(58, 41, 17, 0.8);
+	--navbar-hover-button-color:rgba(216, 239, 147, 0.8);
+
+	--den-title-color:var(--solid-background-color);
+	--den-title-text-shadow:2.5px 2.5px black;
+	--den-title-size:72px;
+
+	--progress-bar-background:#5d1b24;
+	--progress-bar-completion-overlay:#485f33;
+
+	--table-text-color:white;
+
+	--player-image-opacity: 0.75;
+
+	--main-lion-image-opacity: 1;
+
+	--mound-vertical-size: 150px;
+	--mound-padding: 0 0 0 0;
+
+	--mound-image:url(https://chubbygummibear.github.io/truz_lioden_page/assets/strawberries.png);
+	--mound-image-height: 80%;
+	--mound-image-width: 100%;
+
+	--lioden-logo-replacement: url(https://chubbygummibear.github.io/truz_lioden_page/assets/flowers_logo.gif);
+	--lioden-logo-height: 75px;
+	--lioden-logo-width: 100%;
+
+	--giftbox-replacement-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/flower.gif);
+	
+	--cave-vertical-size: 200px;
+	--cave-image-height: 160px;
+	--cave-pregnant-image-replacement: url(https://chubbygummibear.github.io/truz_lioden_page/assets/pregnant.gif) !important;
 }
 
+/* BACKGROUND */
 body {
-	background: url(https://chubbygummibear.github.io/truz_lioden_page/assets/backgroundoption1.jpg) center center fixed;
+	background: var(--main-background-image);
 	background-size: 100%;
 	font-family: FONT CSS HERE;
-	color: var(--text-color-white);
+	color: var(--text-color);
 }
 
 body,
 a:hover {
-	cursor: url(https://cur.cursors-4u.net/nature/nat-3/nat260.cur), default !important;
+	cursor: var(--custom-cursor), default !important;
 }
 
 .center.b {
-	color: var(--text-color-white) !important;
+	color: var(--text-color) !important;
 }
 
 
@@ -42,7 +78,7 @@ a:hover {
 
 .feature {
 	background: var(--box-background) !important;
-	color: var(--text-color-white) !important;
+	color: var(--text-color) !important;
 	border: none !important;
 	border-radius: 5px !important;
 }
@@ -52,9 +88,9 @@ a:hover {
 
 .topbar {
 	background: var(--box-background);
-	border: var(--pink-border);
+	border: var(--box-border);
 	/* border-top: none; */
-	color: var(--text-color-white);
+	color: var(--text-color);
 	border-radius: 5px;
 	font-family: 'The Girl Next Door', cursive;
 }
@@ -63,12 +99,12 @@ a:hover {
 	background: var(--box-background);
 	border-bottom: none;
 	font-family: 'The Girl Next Door', cursive;
-	color: var(--text-color-white);
+	color: var(--text-color);
 	border-radius: 5px;
 }
 
 .navbar li a {
-	color: #000000 !important;
+	color: black !important;
 }
 
 /* NAVBAR HOVER COLOR */
@@ -79,42 +115,36 @@ a:hover {
 
 
 .navbar {
-	background: rgba(58, 41, 17, 0.8);
+	background: var(--navbar-color);
 	border-bottom: none;
 	font-family: 'The Girl Next Door', cursive;
-	color: var(--text-color-white);
+	color: var(--text-color);
 	border-radius: 5px;
 }
 
 .navbar li a {
-	color: var(--text-color-white) !important;
+	color: var(--text-color) !important;
 }
 
 .navbar li a:hover {
-	background: rgba(216, 239, 147, 0.8) !important;
+	background: var(--navbar-hover-button-color) !important;
 }
 
-.container.main {
-	/* background: rgba(216, 239, 147, 0.3); */
-	border: var(--pink-border);
-	box-shadow: none;
-	/* border: none;
-	border-radius: 5px; */
-}
+
 
 
 /* MAIN PANEL */
 
 /* RIGHT SIDE */
 .container.main {
-	background: var(--box-background);
-	border: var(--pink-border);
+	background: var(--main-container-background-color);
+	border: var(--box-border);
 	box-shadow: none;
 	/* border-radius: 5px; */
 }
 
 .col-md-3 .panel {
-    border: var(--pink-border);
+    border: var(--box-border);
     box-shadow: none;
 }
 
@@ -129,11 +159,11 @@ a:hover {
 
 .breadcrumb {
 	background: var(--box-background);
-	border: var(--pink-border);
+	border: var(--box-border);
 }
 
 .breadcrumb .active {
-	color: var(--text-color-white);
+	color: var(--text-color);
 }
 
 
@@ -141,14 +171,14 @@ a:hover {
 
 .alert {
 	background: var(--box-background);
-	border: var(--pink-border);
-	color: var(--text-color-white);
+	border: var(--box-border);
+	color: var(--text-color);
 }
 
 .alert-warning,
 .alert-danger {
 	background: var(--box-background);
-	color: var(--text-color-white);
+	color: var(--text-color);
 }
 
 
@@ -166,28 +196,28 @@ div.left {
 .panel {
 	background: var(--box-background);
 	box-shadow: none;
-	border: var(--pink-border);
-	color: var(--text-color-white);
+	border: var(--box-border);
+	color: var(--text-color);
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	color: var(--text-color-white);
-	background: #5d1b24;
+	color: var(--text-color);
+	background: var(--progress-bar-background);
 	/* background-image: linear-gradient(to right, darkgreen, red); */
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: var(--text-color-white);
+	color: var(--text-color);
 		
 }
 
 /* ENERGY BAR COLOR */
  
 .progress-bar {
-	background: #485f33;
-	color: var(--text-color-white);
+	background: var(--progress-bar-completion-overlay);
+	color: var(--text-color);
 	
 }
 
@@ -195,7 +225,7 @@ div.left {
 
 .s-chat-message:nth-child(even) {
 	background: var(--box-background) !important;
-	border: var(--pink-border);
+	border: var(--box-border);
 }
 
 .s-chat-message:nth-child(odd) {
@@ -205,17 +235,17 @@ div.left {
 
 /* PINNED MESSAGE */
 .s-chat-message__pinned {
-	background: pink !important;
-	color: var(--text-color-white) !important;
+	background: var(--solid-background-color) !important;
+	color: var(--text-color) !important;
 	border: none !important;
 }
 
 .s-chat-message_timestamp {
-	color: var(--text-color-white) !important;
+	color: var(--text-color) !important;
 }
 
 div#chatMessageContainer {
-	border: var(--pink-border);
+	border: var(--box-border);
 }
 
 /* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
@@ -228,9 +258,9 @@ button#label_currentChannel {
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: rgb(255, 104, 129);
-	text-shadow: 2.5px 2.5px black;
-	font-size: 72px;
+	color: var(--den-title-color);
+	text-shadow: var(--den-title-text-shadow);
+	font-size: var(--den-title-size);
 	text-align: center;
 }
 
@@ -238,7 +268,7 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: var(--text-color-white);
+	color: var(--text-color);
 	font-size: 24px;
 	text-align: center;
 }
@@ -247,7 +277,7 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: var(--text-color-white) !important;
+	color: var(--text-color) !important;
 	font-size: 14px !important
 }
 
@@ -257,9 +287,9 @@ h3 {
 
 /* PANEL BACKGROUND COLOR */
 .table {
-	color: white;
+	color: var(--table-text-color);
 	background: var(--box-background);
-	border: var(--pink-border)
+	border: var(--box-border)
 }
 
 
@@ -268,8 +298,7 @@ h3 {
 .bottom,
 th {
 	background: var(--box-background) !important;
-	color: var(--text-color-white) !important;
-	border-radius: 5px;
+	color: var(--text-color) !important;
 }
 
 
@@ -289,7 +318,7 @@ textarea {
 	border-color: black;
 	border-radius: 5px;
 	box-shadow: none !important;
-	color: var(--text-color-white) !important;
+	color: var(--text-color) !important;
 	text-shadow: 1px black !important;
 }
 
@@ -297,7 +326,7 @@ textarea {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: pink;
+	background: var(--solid-background-color);
 }
 
 
@@ -317,7 +346,7 @@ textarea {
 
 .item-header {
 	background: var(--box-background) !important;
-	color: var(--text-color-white) !important;
+	color: var(--text-color) !important;
 }
 
 .item {
@@ -339,11 +368,25 @@ textarea {
 
 /* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
 
-.cave-grid,
-.mound-grid {
-	height: 200px;
-	background: pink;
-	border: var(--pink-border);
+.cave-grid {
+	height: var(--cave-vertical-size);
+	background: var(--box-background);
+	border: var(--box-border);
+}
+.mound-grid{
+	height: var(--mound-vertical-size);
+	background: var(--box-background);
+	border: var(--box-border);
+	padding: var(--mound-padding);
+}
+
+/* MOUNDS */
+
+.mound-grid img {
+	content: var(--mound-image);
+	height: var(--mound-image-height);
+	width:var(--mound-image-width);
+	
 }
 
 
@@ -351,11 +394,11 @@ textarea {
 
 a:link,
 a:visited {
-	color: var(--text-color-white) !important;
+	color: var(--text-color) !important;
 }
 
 a:hover {
-	color: var(--text-color-white) !important;
+	color: var(--text-color) !important;
 }
 
 
@@ -397,11 +440,11 @@ a:hover {
 /* LION AND USER AVATAR OPACITY */
 
 div#lion_image {
-	opacity: 1;
+	opacity: var(--main-lion-image-opacity);
 }
 
 table#player img {
-	opacity: 0.75;
+	opacity: var(--player-image-opacity);
 }
 
 
@@ -423,11 +466,10 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/flowers_logo.gif);
-	margin-top: 12.5px;
-	margin-left: 25px;
-	max-height: 75px;
-	/* max-width: 100px; */
+	content: var(--lioden-logo-replacement);
+	margin: 12.5px 0px 0px 25px;
+	height: var(--lioden-logo-height);
+	width: var(--lioden-logo-width);
 }
 
 /* div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
@@ -435,53 +477,42 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 } */
 
 div.center.auto>img{
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/flower.gif) !important;
+	content: var(--giftbox-replacement-image) !important;
 }
 
 /* PREGNANT LIONESSES */
 
 div.cave-grid>img {
-	height: 160px;
-	content: url(/assets/pregnant.gif) !important;
+	height: var(--cave-image-height);
+	content: var(--cave-pregnant-image-replacement);
 }
 
 /* CAVES (Copy paste to add more) */
 
 a[href$="cave.php?id=1480"]>div.cave-grid>img {
-	content: url(/assets/keepers.gif) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/keepers.gif) !important;
 }
 
 a[href$="cave.php?id=12307"]>div.cave-grid>img {
-	content: url(/assets/valuables2.gif) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/valuables2.gif) !important;
 }
 
 a[href$="cave.php?id=28573"]>div.cave-grid>img {
-	content: url(/assets/ncl\ sales2.gif) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/ncl\ sales2.gif) !important;
 }
 
 /* UNSORTED */
 a[href$="unsorted.php?id=59701"]>div.cave-grid>img {
-	content: url(/assets/valuables.gif) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/valuables.gif) !important;
 }
 
 
 /* PRIDE OVERVIEW */
 
 a[href$="lionoverview.php?id=59701"]>div.cave-grid>img {
-	content: url(/assets/ncl\ sales.gif) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/ncl\ sales.gif) !important;
 }
 
-
-/* MOUNDS */
-
-.mound-grid img {
-	background: url(https://chubbygummibear.github.io/truz_lioden_page/assets/strawberries.png);
-	background-size: contain;
-	width: 0;
-	height: 0;
-	padding-top: 80px;
-	padding-right: 130px;
-}
 
 .scrollyleft {
 	overflow: auto;
@@ -490,8 +521,8 @@ a[href$="lionoverview.php?id=59701"]>div.cave-grid>img {
 	width: 400px;
 	background: var(--box-background);
 	border-radius: 10px;
-	border: var(--pink-border);
-	color: var(--text-color-white);
+	border: var(--box-border);
+	color: var(--text-color);
 	padding: 5px;
 	/* margin: auto; */
 	/* margin-bottom: 10px; */
@@ -504,8 +535,8 @@ a[href$="lionoverview.php?id=59701"]>div.cave-grid>img {
 	width: auto;
 	background: var(--box-background);
 	border-radius: 10px;
-	border: var(--pink-border);
-	color: var(--text-color-white);
+	border: var(--box-border);
+	color: var(--text-color);
 	padding: 5px;
 	margin: auto;
 	margin-bottom: 10px;

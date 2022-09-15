@@ -12,14 +12,14 @@
 
 /* CONTROL VARIABLES */
 :root{
-	--main-container-background-color:rgba(255, 255, 255, 0.25);
+	--main-container-background-color:rgba(255, 164, 164, 0.25);
 	--main-background-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/backgroundoption1.jpg) center center fixed;
 	--box-background: rgb(255, 192, 203, .40);
 	--solid-background-color: pink;
 	--text-color: white;
 	--box-border: 2px solid pink;
 	
-	--custom-cursor:url(https://cur.cursors-4u.net/nature/nat-3/nat260.cur);
+	--custom-cursor:url(https://cur.cursors-4u.net/nature/nat-3/nat260.cur), default !important;
 	
 	--navbar-color:rgba(58, 41, 17, 0.8);
 	--navbar-hover-button-color:rgba(216, 239, 147, 0.8);
@@ -65,7 +65,7 @@ body {
 
 body,
 a:hover {
-	cursor: var(--custom-cursor), default !important;
+	cursor: var(--custom-cursor);
 }
 
 .center.b {

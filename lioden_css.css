@@ -12,7 +12,7 @@
 
 /* CONTROL VARIABLES */
 :root{
-	--main-container-background-color:rgba(255, 132, 153, 0.4);
+	--main-container-background-color:rgba(255, 255, 255, 0.25);
 	--main-background-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/backgroundoption1.jpg) center center fixed;
 	--box-background: rgb(255, 192, 203, .40);
 	--solid-background-color: pink;

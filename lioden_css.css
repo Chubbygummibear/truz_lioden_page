@@ -421,6 +421,7 @@ a:hover {
 	font-size: 20px;
 	/* flex:1; */
 	/* float: right; */
+	flex-basis: fit-content;
 	height: auto;
 	/* width: 100%; */
 	background: var(--box-background);

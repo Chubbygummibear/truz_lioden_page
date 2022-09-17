@@ -410,7 +410,7 @@ a:hover {
 	flex-direction: column;
 	/* flex-grow:1; */
 	background: none;
-	height: 850px;
+	height: 700px;
 	width: auto;
 	padding: 20px;
 	justify-content: center;
@@ -419,8 +419,7 @@ a:hover {
 .about-me {
 	overflow: auto;
 	font-size: 20px;
-	flex:0;
-	flex-grow: 2;
+	/* flex:1; */
 	/* float: right; */
 	height: auto;
 	/* width: 100%; */
@@ -460,7 +459,7 @@ a:hover {
 	
 	/* margin-left: 13px; */
 	padding: 1px 12px 1px 12px;
-	font: normal normal normal 12px/20px 'Helvetica Neue',Arial,sans-serif;
+	font: normal normal normal 12px/19px 'Helvetica Neue',Arial,sans-serif;
 }
 
 .twitter-link:active,
@@ -470,13 +469,22 @@ a:hover {
 }
 
 .twitter-icon{
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/twitter_icon.jpg);
-	height: 60%
+	position: relative;
+	top: 2px;
+	background-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/twitter_icon.png) !important;
+	background-size: 13px;
+	margin-right: 3px;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	height: 14px;
+	width: 14px;
 }
+
 .boxcontainer_horizontal{
 	display: flex;
-	flex:1;
-	flex-grow:1;
+	/* flex:1;
+	flex-grow:1; */
 	flex-direction: row;
 	background: none;
 	/* height: auto;

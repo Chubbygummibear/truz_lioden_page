@@ -428,7 +428,7 @@ a:hover {
 	border-radius: 10px;
 	border: var(--box-border);
 	color: var(--text-color);
-	padding: 5px;
+	padding: 20px;
 	/* margin: auto; */
 	margin-bottom: 10px;
 }

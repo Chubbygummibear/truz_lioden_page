@@ -410,7 +410,7 @@ a:hover {
 	flex-direction: column;
 	/* flex-grow:1; */
 	background: none;
-	height: auto;
+	height: 850px;
 	width: auto;
 	padding: 20px;
 	justify-content: center;

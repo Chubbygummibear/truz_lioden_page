@@ -92,7 +92,7 @@ a:hover {
 	/* border-top: none; */
 	color: var(--text-color);
 	border-radius: 5px;
-	font-family: 'The Girl Next Door', cursive;
+	/* font-family: 'Helvetica Neue',Arial,sans-serif; */
 }
 
 .navbar {

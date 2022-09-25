@@ -1047,11 +1047,11 @@ div.static-tweet-embed {
 .drawing-holder{
 	width: 100px;
 	height: 100px;
-	position: absolute;
-	margin-top: -50px;
+	position: relative;
+	/* margin-top: -50px;
 	margin-left: -50px;
 	top: 50%;
-	left: 50%;
+	left: 50%; */
 }
 .cat-face{
 	background-color: #E58C56;

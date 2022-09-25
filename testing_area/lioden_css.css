@@ -1,0 +1,730 @@
+/*
+  This was originally a free to use CSS template by Katie (#106445).
+
+  Overhauled by Gummibear (#349949) to the point where it hardly resembles the template lmao.
+  If you're reading through my awful code i'm so sorry for you
+*/
+
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door');
+
+/* CONTROL VARIABLES */
+:root{
+	--main-container-background-color:rgba(255, 188, 188, 0.4);
+	--main-background-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/backgroundoption1.jpg) center center fixed;
+	--box-background: rgba(252, 141, 159, 0.5);
+	--solid-background-color: pink;
+	--text-color: white;
+	--box-border: 2px solid pink;
+	
+	--custom-cursor:url(https://cur.cursors-4u.net/nature/nat-3/nat260.cur), default !important;
+	
+	--navbar-color:rgba(58, 41, 17, 0.8);
+	--navbar-hover-button-color:rgba(216, 239, 147, 0.8);
+
+	--den-title-color:var(--solid-background-color);
+	--den-title-text-shadow:2.5px 2.5px black;
+	--den-title-size:72px;
+
+	--progress-bar-background:#5d1b24;
+	--progress-bar-completion-overlay:#485f33;
+
+	--table-text-color:white;
+
+	--player-image-opacity: 0.75;
+
+	--main-lion-image-opacity: 1;
+
+	--mound-vertical-size: 150px;
+	--mound-padding: 0 0 0 0;
+
+	--mound-image:url(https://chubbygummibear.github.io/truz_lioden_page/assets/strawberries.png);
+	--mound-image-height: 80%;
+	--mound-image-width: 100%;
+
+	--lioden-logo-replacement: url(https://chubbygummibear.github.io/truz_lioden_page/assets/flowers_logo.gif);
+	--lioden-logo-height: 75px;
+	--lioden-logo-width: 100%;
+
+	--giftbox-replacement-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/flower.gif);
+	
+	--cave-vertical-size: 200px;
+	--cave-image-height: 160px;
+	--cave-pregnant-image-replacement: url(https://chubbygummibear.github.io/truz_lioden_page/assets/pregnant.gif) !important;
+}
+
+/* BACKGROUND */
+body {
+	background: var(--main-background-image);
+	background-size: 100%;
+	font-family: FONT CSS HERE;
+	color: var(--text-color);
+}
+
+body,
+a:hover {
+	cursor: var(--custom-cursor);
+}
+
+.center.b {
+	color: var(--text-color) !important;
+}
+
+
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: var(--box-background) !important;
+	color: var(--text-color) !important;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+
+.topbar {
+	background: var(--box-background);
+	border: var(--box-border);
+	/* border-top: none; */
+	color: var(--text-color);
+	border-radius: 5px;
+	/* font-family: 'Helvetica Neue',Arial,sans-serif; */
+}
+
+.navbar {
+	background: var(--box-background);
+	border-bottom: none;
+	font-family: 'The Girl Next Door', cursive;
+	color: var(--text-color);
+	border-radius: 5px;
+}
+
+.navbar li a {
+	color: black !important;
+}
+
+/* NAVBAR HOVER COLOR */
+
+.navbar li a:hover {
+	background: var(--box-background) !important;
+}
+
+
+.navbar {
+	background: var(--navbar-color);
+	border-bottom: none;
+	font-family: 'The Girl Next Door', cursive;
+	color: var(--text-color);
+	border-radius: 5px;
+}
+
+.navbar li a {
+	color: var(--text-color) !important;
+}
+
+.navbar li a:hover {
+	background: var(--navbar-hover-button-color) !important;
+}
+
+
+
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: var(--main-container-background-color);
+	border: var(--box-border);
+	box-shadow: none;
+	/* border-radius: 5px; */
+}
+
+.col-md-3 .panel {
+    border: var(--box-border);
+    box-shadow: none;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+	
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: var(--box-background);
+	border: var(--box-border);
+}
+
+.breadcrumb .active {
+	color: var(--text-color);
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert {
+	background: var(--box-background);
+	border: var(--box-border);
+	color: var(--text-color);
+}
+
+.alert-warning,
+.alert-danger {
+	background: var(--box-background);
+	color: var(--text-color);
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: var(--box-background);
+	border: none;
+}
+
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+
+.panel {
+	background: var(--box-background);
+	box-shadow: none;
+	border: var(--box-border);
+	color: var(--text-color);
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	color: var(--text-color);
+	background: var(--progress-bar-background);
+	/* background-image: linear-gradient(to right, darkgreen, red); */
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: var(--text-color);
+		
+}
+
+/* ENERGY BAR COLOR */
+ 
+.progress-bar {
+	background: var(--progress-bar-completion-overlay);
+	color: var(--text-color);
+	
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: var(--box-background) !important;
+	border: var(--box-border);
+}
+
+.s-chat-message:nth-child(odd) {
+	background: var(--box-background) !important;
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: var(--solid-background-color) !important;
+	color: var(--text-color) !important;
+	border: none !important;
+}
+
+.s-chat-message_timestamp {
+	color: var(--text-color) !important;
+}
+
+div#chatMessageContainer {
+	border: var(--box-border);
+}
+
+/* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
+button#label_currentChannel {
+	border: none !important;
+	background: var(--box-background) !important;
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: var(--den-title-color);
+	text-shadow: var(--den-title-text-shadow);
+	font-size: var(--den-title-size);
+	text-align: center;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: var(--text-color);
+	text-shadow: var(--den-title-text-shadow);
+	font-size: 30px;
+	text-align: center;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: var(--text-color) !important;
+	font-size: 14px !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Branch, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+.table {
+	color: var(--table-text-color);
+	background: var(--box-background);
+	border: var(--box-border)
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+.top,
+.bottom,
+th {
+	background: var(--box-background) !important;
+	color: var(--text-color) !important;
+}
+
+
+/* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
+
+.table .left {
+	background: var(--box-background)
+}
+
+/* Affects the color behind your territory description, player name, etc. */
+
+input,
+select,
+textarea {
+	background: var(--box-background) !important;
+	border: none !important;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: none !important;
+	color: var(--text-color) !important;
+	text-shadow: 1px black !important;
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: var(--solid-background-color);
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: var(--box-background)
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important;
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: var(--box-background) !important;
+	color: var(--text-color) !important;
+}
+
+.item {
+	background: var(--box-background) !important;
+	border: none !important;
+}
+
+
+/* BEETLE MOUND TOPBAR (Where it says Beetle Training Grounds, Beetle Battling, etc.) */
+
+.sub_menu {
+	background: var(--box-background) !important;
+}
+
+.sub_menu_item_selected {
+	background: var(--box-background) !important;
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
+
+.cave-grid {
+	height: var(--cave-vertical-size);
+	background: var(--box-background);
+	border: var(--box-border);
+}
+.mound-grid{
+	height: var(--mound-vertical-size);
+	background: var(--box-background);
+	border: var(--box-border);
+	padding: var(--mound-padding);
+}
+
+/* MOUNDS */
+
+.mound-grid img {
+	content: var(--mound-image);
+	height: var(--mound-image-height);
+	width:var(--mound-image-width);
+	
+}
+
+
+/* LINKS & LINK HOVER COLOR */
+
+a:link,
+a:visited {
+	color: var(--text-color) !important;
+}
+
+a:hover {
+	color: var(--text-color) !important;
+}
+
+
+/* BOXES (Copy paste to add more or less) */
+
+.boxcontainer {
+	display: flex;
+	flex-direction: column;
+	/* flex-grow:1; */
+	background: none;
+	height: 650px;
+	width: auto;
+	padding: 20px;
+	justify-content: center;
+}
+
+.about-me {
+	overflow: auto;
+	font-size: 20px;
+	/* flex:1; */
+	/* float: right; */
+	flex-basis: fit-content;
+	height: auto;
+	/* width: 100%; */
+	background: var(--box-background);
+	border-radius: 10px;
+	border: var(--box-border);
+	color: var(--text-color);
+	padding: 20px;
+	/* margin: auto; */
+	margin-bottom: 10px;
+}
+.about-me::-webkit-scrollbar {
+	width: 12px;
+}
+.about-me::-webkit-scrollbar-track {
+	background: var(--main-container-background-color);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+.about-me::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: var(--box-background);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.fake_twitter_button{
+	height: 30px;
+	width:150px;
+}
+.twitter-link{
+	/* background-image: url(/assets/twitter_icon.png);
+	background-size: 15%;
+	background-repeat: no-repeat; */
+	background-color: #1d9bf0;
+	width: fit-content;
+	height: inherit;
+	border-radius: 20px;
+	
+	/* margin-left: 13px; */
+	padding: 1px 12px 1px 12px;
+	font: normal normal normal 18px/30px 'Helvetica Neue',Arial,sans-serif;
+}
+
+.twitter-link:active,
+.twitter-link:focus,
+.twitter-link:hover{
+	background-color: #0c7abf;
+}
+
+.twitter-icon{
+	position: relative;
+	top: 0px;
+	background-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/twitter_icon.png) !important;
+	background-size: 18px;
+	margin-right: 4px;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	height: 30px;
+	width: 20px;
+}
+
+.boxcontainer_horizontal{
+	display: flex;
+	/* flex:1;
+	flex-grow:1; */
+	flex-direction: row;
+	background: none;
+	/* height: auto;
+	width: auto; */
+	padding: 0px;
+	/* padding-left: 40px; */
+	justify-content: center;
+}
+.gameplay_info {
+	overflow: auto;
+	flex:3;
+	font-size: 16px;
+	/* float: left; */
+	height: auto;
+	/* width: auto; */
+	background: var(--box-background);
+	border-radius: 10px;
+	border: var(--box-border);
+	color: var(--text-color);
+	padding: 5px;
+	/* margin: auto; */
+	/* margin-bottom: 10px; */
+}
+.gameplay_info::-webkit-scrollbar {
+	width: 12px;
+}
+.gameplay_info::-webkit-scrollbar-track {
+	background: var(--main-container-background-color);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+.gameplay_info::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: var(--box-background);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.lioden-goals {
+	overflow: auto;
+	flex:1;
+	/* flex-grow: 1; */
+	font-size: 16px;
+	line-height:300%;
+	width: 100%;
+	background: var(--box-background);
+	border-radius: 10px;
+	border: var(--box-border);
+	color: var(--text-color);
+	margin-left: 20px;
+}
+.lioden-goals::-webkit-scrollbar {
+	width: 12px;
+}
+.lioden-goals::-webkit-scrollbar-track {
+	background: var(--main-container-background-color);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+.lioden-goals::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: var(--box-background);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+
+.gameplay_info::-webkit-scrollbar {
+	width: 12px;
+}
+
+.gameplay_info::-webkit-scrollbar-track {
+	background:var(--main-container-background-color);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
+.gameplay_info::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: var(--box-background);
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+
+/* SCROLL BAR BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: var(--box-background);
+}
+
+
+/* SCROLL BAR "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: var(--box-background);
+	border-radius: 4px;
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: var(--main-lion-image-opacity);
+}
+
+table#player img {
+	opacity: var(--player-image-opacity);
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 19px;
+	margin-left: 6px;
+}
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden;
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: var(--lioden-logo-replacement);
+	margin: 12.5px 0px 0px 25px;
+	height: var(--lioden-logo-height);
+	width: var(--lioden-logo-width);
+}
+
+/* div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://puu.sh/CtvFO/157320faf8.gif');
+} */
+
+div.center.auto>img{
+	content: var(--giftbox-replacement-image) !important;
+}
+
+/* PREGNANT LIONESSES */
+
+div.cave-grid>img {
+	height: var(--cave-image-height);
+	content: var(--cave-pregnant-image-replacement);
+}
+
+/* CAVES (Copy paste to add more) */
+
+a[href$="cave.php?id=1480"]>div.cave-grid>img {
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/keepers.gif) !important;
+}
+
+a[href$="cave.php?id=12307"]>div.cave-grid>img {
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/valuables2.gif) !important;
+}
+
+a[href$="cave.php?id=28573"]>div.cave-grid>img {
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/ncl\ sales2.gif) !important;
+}
+
+/* UNSORTED */
+a[href$="unsorted.php?id=59701"]>div.cave-grid>img {
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/valuables.gif) !important;
+}
+
+
+/* PRIDE OVERVIEW */
+
+a[href$="lionoverview.php?id=59701"]>div.cave-grid>img {
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/ncl\ sales.gif) !important;
+}
+
+
+div.static-tweet-embed {
+	display: flex;
+	flex-direction: column;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+	  Arial, sans-serif;
+	max-width: 550px;
+	width: 100;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(196, 207, 214);
+	border-radius: 12px;
+	padding: 12px 16px 4px 16px;
+  }
+.tweet{
+	display: flex;
+	flex-direction: column;
+	max-width: 550px;
+	width: 100;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	color:black;
+	border: 1px solid rgb(196, 207, 214);
+	border-radius: 12px;
+	padding: 12px 16px 4px 16px;
+	font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	
+}
+.tweet blockquote{
+	margin: none;
+ 	padding: none;
+	border-left: none;
+}
+.tweet blockquote:before {
+	color: #ccc;
+	/* font-size: 4em; */
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	/* vertical-align: -0.4em; */
+}
+.tweet blockquote p {
+	display:contents;
+}
+
+.tweet  a:link,
+.tweet  a:visited,
+.tweet  a:hover {
+	font: inherit;
+	color:gray !important;
+	text-align: inherit;
+	font-size: 14px;
+	
+}
+
+.tweet blockquote a:link,
+.tweet blockquote a:visited,
+.tweet blockquote a:hover {
+	font: inherit;
+	color:black !important;
+}

@@ -268,8 +268,8 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: var(--text-color);
-	text-shadow: var(--den-title-text-shadow);
+	color: black;
+	/* text-shadow: var(--den-title-text-shadow); */
 	font-size: 30px;
 	text-align: center;
 }

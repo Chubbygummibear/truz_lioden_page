@@ -11,27 +11,27 @@
 @import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door');
 
 /* CONTROL VARIABLES */
-:root{
-	--main-container-background-color:rgba(255, 188, 188, 0.4);
+:root {
+	--main-container-background-color: rgba(255, 188, 188, 0.4);
 	--main-background-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/backgroundoption1.jpg) center center fixed;
 	--box-background: rgba(252, 141, 159, 0.5);
 	--solid-background-color: pink;
 	--text-color: white;
 	--box-border: 2px solid pink;
-	
-	--custom-cursor:url(https://cur.cursors-4u.net/nature/nat-3/nat260.cur), default !important;
-	
-	--navbar-color:rgba(58, 41, 17, 0.8);
-	--navbar-hover-button-color:rgba(216, 239, 147, 0.8);
 
-	--den-title-color:var(--solid-background-color);
-	--den-title-text-shadow:2.5px 2.5px black;
-	--den-title-size:72px;
+	--custom-cursor: url(https://cur.cursors-4u.net/nature/nat-3/nat260.cur), default !important;
 
-	--progress-bar-background:#5d1b24;
-	--progress-bar-completion-overlay:#485f33;
+	--navbar-color: rgba(58, 41, 17, 0.8);
+	--navbar-hover-button-color: rgba(216, 239, 147, 0.8);
 
-	--table-text-color:white;
+	--den-title-color: var(--solid-background-color);
+	--den-title-text-shadow: 2.5px 2.5px black;
+	--den-title-size: 72px;
+
+	--progress-bar-background: #5d1b24;
+	--progress-bar-completion-overlay: #485f33;
+
+	--table-text-color: white;
 
 	--player-image-opacity: 0.75;
 
@@ -40,7 +40,7 @@
 	--mound-vertical-size: 150px;
 	--mound-padding: 0 0 0 0;
 
-	--mound-image:url(https://chubbygummibear.github.io/truz_lioden_page/assets/strawberries.png);
+	--mound-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/strawberries.png);
 	--mound-image-height: 80%;
 	--mound-image-width: 100%;
 
@@ -49,7 +49,7 @@
 	--lioden-logo-width: 100%;
 
 	--giftbox-replacement-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/flower.gif);
-	
+
 	--cave-vertical-size: 200px;
 	--cave-image-height: 160px;
 	--cave-pregnant-image-replacement: url(https://chubbygummibear.github.io/truz_lioden_page/assets/pregnant.gif) !important;
@@ -144,14 +144,14 @@ a:hover {
 }
 
 .col-md-3 .panel {
-    border: var(--box-border);
-    box-shadow: none;
+	border: var(--box-border);
+	box-shadow: none;
 }
 
 /* LEFT SIDE */
 .col-md-9 {
 	background: none;
-	
+
 }
 
 
@@ -210,15 +210,15 @@ div.left {
 /* ENERGY BAR TEXT */
 .progress div {
 	color: var(--text-color);
-		
+
 }
 
 /* ENERGY BAR COLOR */
- 
+
 .progress-bar {
 	background: var(--progress-bar-completion-overlay);
 	color: var(--text-color);
-	
+
 }
 
 /* CHAT */
@@ -374,7 +374,8 @@ textarea {
 	background: var(--box-background);
 	border: var(--box-border);
 }
-.mound-grid{
+
+.mound-grid {
 	height: var(--mound-vertical-size);
 	background: var(--box-background);
 	border: var(--box-border);
@@ -386,8 +387,8 @@ textarea {
 .mound-grid img {
 	content: var(--mound-image);
 	height: var(--mound-image-height);
-	width:var(--mound-image-width);
-	
+	width: var(--mound-image-width);
+
 }
 
 
@@ -432,24 +433,29 @@ a:hover {
 	/* margin: auto; */
 	margin-bottom: 10px;
 }
+
 .about-me::-webkit-scrollbar {
 	width: 12px;
 }
+
 .about-me::-webkit-scrollbar-track {
 	background: var(--main-container-background-color);
 	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 	border-radius: 10px;
 }
+
 .about-me::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	background: var(--box-background);
 	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
-.fake_twitter_button{
+
+.fake_twitter_button {
 	height: 30px;
-	width:150px;
+	width: 150px;
 }
-.twitter-link{
+
+.twitter-link {
 	/* background-image: url(/assets/twitter_icon.png);
 	background-size: 15%;
 	background-repeat: no-repeat; */
@@ -457,19 +463,19 @@ a:hover {
 	width: fit-content;
 	height: inherit;
 	border-radius: 20px;
-	
+
 	/* margin-left: 13px; */
 	padding: 1px 12px 1px 12px;
-	font: normal normal normal 18px/30px 'Helvetica Neue',Arial,sans-serif;
+	font: normal normal normal 18px/30px 'Helvetica Neue', Arial, sans-serif;
 }
 
 .twitter-link:active,
 .twitter-link:focus,
-.twitter-link:hover{
+.twitter-link:hover {
 	background-color: #0c7abf;
 }
 
-.twitter-icon{
+.twitter-icon {
 	position: relative;
 	top: 0px;
 	background-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/twitter_icon.png) !important;
@@ -482,7 +488,7 @@ a:hover {
 	width: 20px;
 }
 
-.boxcontainer_horizontal{
+.boxcontainer_horizontal {
 	display: flex;
 	/* flex:1;
 	flex-grow:1; */
@@ -494,9 +500,10 @@ a:hover {
 	/* padding-left: 40px; */
 	justify-content: center;
 }
+
 .gameplay_info {
 	overflow: auto;
-	flex:3;
+	flex: 3;
 	font-size: 16px;
 	/* float: left; */
 	height: auto;
@@ -509,14 +516,17 @@ a:hover {
 	/* margin: auto; */
 	/* margin-bottom: 10px; */
 }
+
 .gameplay_info::-webkit-scrollbar {
 	width: 12px;
 }
+
 .gameplay_info::-webkit-scrollbar-track {
 	background: var(--main-container-background-color);
 	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 	border-radius: 10px;
 }
+
 .gameplay_info::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	background: var(--box-background);
@@ -525,10 +535,10 @@ a:hover {
 
 .lioden-goals {
 	overflow: auto;
-	flex:1;
+	flex: 1;
 	/* flex-grow: 1; */
 	font-size: 16px;
-	line-height:300%;
+	line-height: 300%;
 	width: 100%;
 	background: var(--box-background);
 	border-radius: 10px;
@@ -536,14 +546,17 @@ a:hover {
 	color: var(--text-color);
 	margin-left: 20px;
 }
+
 .lioden-goals::-webkit-scrollbar {
 	width: 12px;
 }
+
 .lioden-goals::-webkit-scrollbar-track {
 	background: var(--main-container-background-color);
 	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 	border-radius: 10px;
 }
+
 .lioden-goals::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	background: var(--box-background);
@@ -556,7 +569,7 @@ a:hover {
 }
 
 .gameplay_info::-webkit-scrollbar-track {
-	background:var(--main-container-background-color);
+	background: var(--main-container-background-color);
 	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 	border-radius: 10px;
 }
@@ -630,7 +643,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	content: url('https://puu.sh/CtvFO/157320faf8.gif');
 } */
 
-div.center.auto>img{
+div.center.auto>img {
 	content: var(--giftbox-replacement-image) !important;
 }
 
@@ -672,7 +685,7 @@ div.static-tweet-embed {
 	display: flex;
 	flex-direction: column;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-	  Arial, sans-serif;
+		Arial, sans-serif;
 	max-width: 550px;
 	width: 100;
 	margin-top: 10px;
@@ -680,8 +693,9 @@ div.static-tweet-embed {
 	border: 1px solid rgb(196, 207, 214);
 	border-radius: 12px;
 	padding: 12px 16px 4px 16px;
-  }
-.tweet{
+}
+
+.tweet {
 	display: flex;
 	flex-direction: column;
 	max-width: 550px;
@@ -689,18 +703,20 @@ div.static-tweet-embed {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	background-color: white;
-	color:black;
+	color: black;
 	border: 1px solid rgb(196, 207, 214);
 	border-radius: 12px;
 	padding: 12px 16px 4px 16px;
 	font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-	
+
 }
-.tweet blockquote{
+
+.tweet blockquote {
 	margin: none;
- 	padding: none;
+	padding: none;
 	border-left: none;
 }
+
 .tweet blockquote:before {
 	color: #ccc;
 	/* font-size: 4em; */
@@ -708,35 +724,37 @@ div.static-tweet-embed {
 	margin-right: 0.25em;
 	/* vertical-align: -0.4em; */
 }
+
 .tweet blockquote p {
-	display:contents;
+	display: contents;
 }
 
-.tweet  a:link,
-.tweet  a:visited,
-.tweet  a:hover {
+.tweet a:link,
+.tweet a:visited,
+.tweet a:hover {
 	font: inherit;
-	color:gray !important;
+	color: gray !important;
 	text-align: inherit;
 	font-size: 14px;
-	
+
 }
 
 .tweet blockquote a:link,
 .tweet blockquote a:visited,
 .tweet blockquote a:hover {
 	font: inherit;
-	color:black !important;
+	color: black !important;
 }
 
-.container {
+.coffeetainer {
 	width: 300px;
 	height: 280px;
 	position: absolute;
 	top: calc(50% - 140px);
 	left: calc(50% - 150px);
-  }
-  .coffee-header {
+}
+
+.coffee-header {
 	width: 100%;
 	height: 80px;
 	position: absolute;
@@ -744,16 +762,18 @@ div.static-tweet-embed {
 	left: 0;
 	background-color: #ddcfcc;
 	border-radius: 10px;
-  }
-  .coffee-header__buttons {
+}
+
+.coffee-header__buttons {
 	width: 25px;
 	height: 25px;
 	position: absolute;
 	top: 25px;
 	background-color: #282323;
 	border-radius: 50%;
-  }
-  .coffee-header__buttons::after {
+}
+
+.coffee-header__buttons::after {
 	content: "";
 	width: 8px;
 	height: 8px;
@@ -761,14 +781,17 @@ div.static-tweet-embed {
 	bottom: -8px;
 	left: calc(50% - 4px);
 	background-color: #615e5e;
-  }
-  .coffee-header__button-one {
+}
+
+.coffee-header__button-one {
 	left: 15px;
-  }
-  .coffee-header__button-two {
+}
+
+.coffee-header__button-two {
 	left: 50px;
-  }
-  .coffee-header__display {
+}
+
+.coffee-header__display {
 	width: 50px;
 	height: 50px;
 	position: absolute;
@@ -778,8 +801,9 @@ div.static-tweet-embed {
 	background-color: #9acfc5;
 	border: 5px solid #43beae;
 	box-sizing: border-box;
-  }
-  .coffee-header__details {
+}
+
+.coffee-header__details {
 	width: 8px;
 	height: 20px;
 	position: absolute;
@@ -787,16 +811,18 @@ div.static-tweet-embed {
 	right: 10px;
 	background-color: #9b9091;
 	box-shadow: -12px 0 0 #9b9091, -24px 0 0 #9b9091;
-  }
-  .coffee-medium {
+}
+
+.coffee-medium {
 	width: 90%;
 	height: 160px;
 	position: absolute;
 	top: 80px;
 	left: calc(50% - 45%);
 	background-color: #bcb0af;
-  }
-  .coffee-medium:before {
+}
+
+.coffee-medium:before {
 	content: "";
 	width: 90%;
 	height: 100px;
@@ -805,16 +831,18 @@ div.static-tweet-embed {
 	bottom: 0;
 	left: calc(50% - 45%);
 	border-radius: 20px 20px 0 0;
-  }
-  .coffe-medium__exit {
+}
+
+.coffe-medium__exit {
 	width: 60px;
 	height: 20px;
 	position: absolute;
 	top: 0;
 	left: calc(50% - 30px);
 	background-color: #231f20;
-  }
-  .coffe-medium__exit::before {
+}
+
+.coffe-medium__exit::before {
 	content: "";
 	width: 50px;
 	height: 20px;
@@ -823,8 +851,9 @@ div.static-tweet-embed {
 	bottom: -20px;
 	left: calc(50% - 25px);
 	background-color: #231f20;
-  }
-  .coffe-medium__exit::after {
+}
+
+.coffe-medium__exit::after {
 	content: "";
 	width: 10px;
 	height: 10px;
@@ -832,16 +861,18 @@ div.static-tweet-embed {
 	bottom: -30px;
 	left: calc(50% - 5px);
 	background-color: #231f20;
-  }
-  .coffee-medium__arm {
+}
+
+.coffee-medium__arm {
 	width: 70px;
 	height: 20px;
 	position: absolute;
 	top: 15px;
 	right: 25px;
 	background-color: #231f20;
-  }
-  .coffee-medium__arm::before {
+}
+
+.coffee-medium__arm::before {
 	content: "";
 	width: 15px;
 	height: 5px;
@@ -849,8 +880,9 @@ div.static-tweet-embed {
 	top: 7px;
 	left: -15px;
 	background-color: #9e9495;
-  }
-  .coffee-medium__cup {
+}
+
+.coffee-medium__cup {
 	width: 80px;
 	height: 47px;
 	position: absolute;
@@ -858,8 +890,9 @@ div.static-tweet-embed {
 	left: calc(50% - 40px);
 	background-color: #FFF;
 	border-radius: 0 0 70px 70px / 0 0 110px 110px;
-  }
-  .coffee-medium__cup::after {
+}
+
+.coffee-medium__cup::after {
 	content: "";
 	width: 20px;
 	height: 20px;
@@ -868,30 +901,36 @@ div.static-tweet-embed {
 	right: -13px;
 	border: 5px solid #FFF;
 	border-radius: 50%;
-  }
-  @keyframes liquid {
+}
+
+@keyframes liquid {
 	0% {
-	  height: 0px;  
-	  opacity: 1;
+		height: 0px;
+		opacity: 1;
 	}
+
 	5% {
-	  height: 0px;  
-	  opacity: 1;
+		height: 0px;
+		opacity: 1;
 	}
+
 	20% {
-	  height: 62px;  
-	  opacity: 1;
+		height: 62px;
+		opacity: 1;
 	}
+
 	95% {
-	  height: 62px;
-	  opacity: 1;
+		height: 62px;
+		opacity: 1;
 	}
+
 	100% {
-	  height: 62px;
-	  opacity: 0;
+		height: 62px;
+		opacity: 0;
 	}
-  }
-  .coffee-medium__liquid {
+}
+
+.coffee-medium__liquid {
 	width: 6px;
 	height: 63px;
 	opacity: 0;
@@ -900,75 +939,89 @@ div.static-tweet-embed {
 	left: calc(50% - 3px);
 	background-color: #74372b;
 	animation: liquid 4s 4s linear infinite;
-  }
-  .coffee-medium__smoke {
+}
+
+.coffee-medium__smoke {
 	width: 8px;
 	height: 20px;
-	position: absolute;  
+	position: absolute;
 	border-radius: 5px;
 	background-color: #b3aeae;
-  }
-  @keyframes smokeOne {
+}
+
+@keyframes smokeOne {
 	0% {
-	  bottom: 20px;
-	  opacity: 0;
+		bottom: 20px;
+		opacity: 0;
 	}
+
 	40% {
-	  bottom: 50px;
-	  opacity: .5;
+		bottom: 50px;
+		opacity: .5;
 	}
+
 	80% {
-	  bottom: 80px;
-	  opacity: .3;
+		bottom: 80px;
+		opacity: .3;
 	}
+
 	100% {
-	  bottom: 80px;
-	  opacity: 0;
+		bottom: 80px;
+		opacity: 0;
 	}
-  }
-  @keyframes smokeTwo {
+}
+
+@keyframes smokeTwo {
 	0% {
-	  bottom: 40px;
-	  opacity: 0;
+		bottom: 40px;
+		opacity: 0;
 	}
+
 	40% {
-	  bottom: 70px;
-	  opacity: .5;
+		bottom: 70px;
+		opacity: .5;
 	}
+
 	80% {
-	  bottom: 80px;
-	  opacity: .3;
+		bottom: 80px;
+		opacity: .3;
 	}
+
 	100% {
-	  bottom: 80px;
-	  opacity: 0;
+		bottom: 80px;
+		opacity: 0;
 	}
-  }
-  .coffee-medium__smoke-one {
+}
+
+.coffee-medium__smoke-one {
 	opacity: 0;
 	bottom: 50px;
 	left: 102px;
 	animation: smokeOne 3s 4s linear infinite;
-  }
-  .coffee-medium__smoke-two {
+}
+
+.coffee-medium__smoke-two {
 	opacity: 0;
 	bottom: 70px;
 	left: 118px;
 	animation: smokeTwo 3s 5s linear infinite;
-  }
-  .coffee-medium__smoke-three {
+}
+
+.coffee-medium__smoke-three {
 	opacity: 0;
 	bottom: 65px;
 	right: 118px;
 	animation: smokeTwo 3s 6s linear infinite;
-  }
-  .coffee-medium__smoke-for {
+}
+
+.coffee-medium__smoke-for {
 	opacity: 0;
 	bottom: 50px;
 	right: 102px;
 	animation: smokeOne 3s 5s linear infinite;
-  }
-  .coffee-footer {
+}
+
+.coffee-footer {
 	width: 95%;
 	height: 15px;
 	position: absolute;
@@ -976,8 +1029,9 @@ div.static-tweet-embed {
 	left: calc(50% - 47.5%);
 	background-color: #41bdad;
 	border-radius: 10px;
-  }
-  .coffee-footer::after {
+}
+
+.coffee-footer::after {
 	content: "";
 	width: 106%;
 	height: 26px;
@@ -985,4 +1039,4 @@ div.static-tweet-embed {
 	bottom: -25px;
 	left: -8px;
 	background-color: #000;
-  }
+}

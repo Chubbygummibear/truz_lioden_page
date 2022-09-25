@@ -415,6 +415,7 @@ a:hover {
 	width: auto;
 	padding: 20px;
 	justify-content: center;
+	align-items: center;
 }
 
 .about-me {
@@ -750,7 +751,8 @@ div.static-tweet-embed {
 	width: 300px;
 	height: 280px;
 	position: relative;
-	top: calc(50% - 140px);
+	/* top: calc(50% - 140px);
+	left: calc(50% - 150px); */
 }
 
 .coffee-header {

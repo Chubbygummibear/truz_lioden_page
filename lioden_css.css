@@ -21,7 +21,7 @@
 	
 	--custom-cursor:url(https://cur.cursors-4u.net/nature/nat-3/nat260.cur), default !important;
 	
-	--navbar-color:rgba(58, 41, 17, 0.8);
+	--navbar-color:var(--box-background);
 	--navbar-hover-button-color:rgba(216, 239, 147, 0.8);
 
 	--den-title-color:var(--solid-background-color);
@@ -44,7 +44,7 @@
 	--mound-image-height: 80%;
 	--mound-image-width: 100%;
 
-	--lioden-logo-replacement: url(https://chubbygummibear.github.io/truz_lioden_page/assets/flowers_logo.gif);
+	--lioden-logo-replacement: url(https://chubbygummibear.github.io/truz_lioden_page/assets/strawberries-logo.gif);
 	--lioden-logo-height: 75px;
 	--lioden-logo-width: 100%;
 

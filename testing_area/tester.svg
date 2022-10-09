@@ -1,0 +1,39 @@
+<svg viewBox="0 0 600 1000" xmlns="http://www.w3.org/2000/svg">
+    <!-- <link rel="stylesheet" href="lioden_css.css" type="text/css" /> -->
+
+    <foreignObject width="100%" height="100%">
+        <link rel="stylesheet" type="text/css"
+            href="https://chubbygummibear.github.io/truz_lioden_page/testing_area/lioden_css.css" />
+        <div class="boxcontainer">
+            <div class="about-me">
+                <h2>There's probably going to be random garbage on my page because i'm messing with css stuff</h2>
+            </div>
+            <div class="coffeetainer">
+                <div class="coffee-header">
+                    <div class="coffee-header__buttons coffee-header__button-one"></div>
+                    <div class="coffee-header__buttons coffee-header__button-two"></div>
+                    <div class="coffee-header__display"></div>
+                    <div class="coffee-header__details"></div>
+                </div>
+                <div class="coffee-medium">
+                    <div class="coffe-medium__exit"></div>
+                    <div class="coffee-medium__arm"></div>
+                    <div class="coffee-medium__liquid"></div>
+                    <div class="coffee-medium__smoke coffee-medium__smoke-one"></div>
+                    <div class="coffee-medium__smoke coffee-medium__smoke-two"></div>
+                    <div class="coffee-medium__smoke coffee-medium__smoke-three"></div>
+                    <div class="coffee-medium__smoke coffee-medium__smoke-for"></div>
+                    <div class="coffee-medium__cup"></div>
+                </div>
+                <div class="coffee-footer"></div>
+            </div>
+            <div class="drawing-holder">
+                <div class="cat-face">
+                    <div class="cat-eyes"></div>
+                    <div class="cat-nose"></div>
+                    <div class="cat-mouth"></div>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>

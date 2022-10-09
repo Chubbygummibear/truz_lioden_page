@@ -481,6 +481,29 @@ a:hover {
 	height: 30px;
 	width: 20px;
 }
+.art_thread_button{
+	height: 30px;
+	width:150px;
+}
+.art_thread-link{
+	/* background-image: url(/assets/twitter_icon.png);
+	background-size: 15%;
+	background-repeat: no-repeat; */
+	background-color: #522b4b;
+	width: fit-content;
+	height: inherit;
+	border-radius: 20px;
+	
+	/* margin-left: 13px; */
+	padding: 1px 12px 1px 12px;
+	/* font: normal normal normal 18px/30px 'Helvetica Neue',Arial,sans-serif; */
+}
+
+.art_thread-link:active,
+.art_thread-link:focus,
+.art_thread-link:hover{
+	background-color: #7a4070;
+}
 
 .boxcontainer_horizontal{
 	display: flex;

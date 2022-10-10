@@ -408,7 +408,7 @@ a:hover {
 .boxcontainer {
 	display: flex;
 	flex-direction: column;
-	background-image: url(/assets/background-hearts.gif) !important;
+	background-image: url(https://chubbygummibear.github.io/truz_lioden_page/assets/background-hearts.gif) !important;
 	/* flex-grow:1; */
 	background: none;
 	height: 650px;

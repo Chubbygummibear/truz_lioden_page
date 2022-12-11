@@ -658,7 +658,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	content: var(--giftbox-replacement-image) !important;
 } */
 
-table.table {
+table.table.auto {
     /* background: #DFB8B1!important; */
     color: black !important;
     /* border-color: #FFFFFF; */

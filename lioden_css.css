@@ -658,6 +658,12 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	content: var(--giftbox-replacement-image) !important;
 } */
 
+td.right {
+    /* background: #DFB8B1!important; */
+    color: pink !important;
+    /* border-color: #FFFFFF; */
+}
+
 /* PREGNANT LIONESSES */
 
 div.cave-grid>img {

@@ -672,17 +672,25 @@ div.cave-grid>img {
 }
 
 /* CAVES (Copy paste to add more) */
-
+/* Keeping cave */
 a[href$="cave.php?id=1480"]>div.cave-grid>img {
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/keepers.gif) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/keepingcave.png) !important;
 }
-
+/* Nursery Cave */
 a[href$="cave.php?id=12307"]>div.cave-grid>img {
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/valuables2.gif) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/nurserycave.png) !important;
 }
-
+/* Crb cave */
 a[href$="cave.php?id=28573"]>div.cave-grid>img {
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/ncl\ sales2.gif) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/crbcave.png) !important;
+}
+/* Projects cave */
+a[href$="cave.php?id=344779"]>div.cave-grid>img {
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/projectcave.png) !important;
+}
+/* Combo Factors */
+a[href$="unsorted.php?id=304040"]>div.cave-grid>img {
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/combocave.png) !important;
 }
 
 /* UNSORTED */

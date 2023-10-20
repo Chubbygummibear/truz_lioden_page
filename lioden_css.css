@@ -666,36 +666,36 @@ table.table.auto {
 
 /* PREGNANT LIONESSES */
 
-div.cave-grid>img {
+/* div.cave-grid>img {
 	height: var(--cave-image-height);
 	content: var(--cave-pregnant-image-replacement);
-}
+} */
 
 /* CAVES (Copy paste to add more) */
 /* Keeping cave */
 a[href$="cave.php?id=1480"]>div.cave-grid>img {
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/keepingcave.png) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/den_icon_lilypads.png) !important;
 }
 /* Nursery Cave */
 a[href$="cave.php?id=12307"]>div.cave-grid>img {
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/nurserycave.png) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/den_icon_lilypads.png) !important;
 }
 /* Crb cave */
 a[href$="cave.php?id=28573"]>div.cave-grid>img {
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/crbcave.png) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/den_icon_lilypads.png) !important;
 }
 /* Projects cave */
 a[href$="cave.php?id=344779"]>div.cave-grid>img {
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/projectcave.png) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/den_icon_lilypads.png) !important;
 }
 /* Combo Factors */
 a[href$="cave.php?id=304040"]>div.cave-grid>img {
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/combocave.png) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/den_icon_lilypads.png) !important;
 }
 
 /* UNSORTED */
 a[href$="unsorted.php?id=59701"]>div.cave-grid>img {
-	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/valuables.gif) !important;
+	content: url(https://chubbygummibear.github.io/truz_lioden_page/assets/den_icon_lilypads.png) !important;
 }
 
 

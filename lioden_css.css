@@ -52,7 +52,7 @@
 	
 	/* --cave-vertical-size: 200px;
 	--cave-image-height: 160px; */
-	--cave-pregnant-image-replacement: url(https://chubbygummibear.github.io/truz_lioden_page/assets/den_icon_lilypads.png);
+	--cave-pregnant-image-replacement: url(https://chubbygummibear.github.io/truz_lioden_page/assets/den_icon_lilypads.png) !important;
 }
 
 /* BACKGROUND */
@@ -666,10 +666,10 @@ table.table.auto {
 
 /* PREGNANT LIONESSES */
 
-/* div.cave-grid>img {
-	height: var(--cave-image-height);
+div.cave-grid>img {
+	/* height: var(--cave-image-height); */
 	content: var(--cave-pregnant-image-replacement);
-} */
+}
 
 /* CAVES (Copy paste to add more) */
 /* Keeping cave */
